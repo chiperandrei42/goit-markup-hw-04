@@ -1,12 +1,11 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700;900&amp;display=swap"
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
@@ -31,21 +30,33 @@
               <li>
                 <a class="link-class current" href="index.html">Studio</a>
               </li>
-              <li><a class="link-class" href="portfolio.html">Portfolio</a></li>
-              <li><a class="link-class" href="#">Contacts</a></li>
+              <li>
+                <a class="link-class" href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <a class="link-class" href="#">Contacts</a>
+              </li>
             </ul>
           </nav>
           <section class="main-navigation">
             <div class="contact-container">
               <ul class="list-class">
-                <li>
-                  <a class="contact-link" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
+                <li class="list-item-class" id="envelope-li">
+                  <a class="contact-link" href="mailto:info@devstudio.com">
+                    <svg id="envelope-icon">
+                      <use href="./symbol-defs.svg#icon-envelope-nav-bar"></use>
+                    </svg>
+                    info@devstudio.com</a
                   >
                 </li>
-                <li>
-                  <a class="contact-link" href="tel:+1-212-772-4150"
-                    >+1-212-772-4150</a
+                <li class="list-item-class" id="phone-li">
+                  <a class="contact-link" href="tel:+1-212-772-4150">
+                    <svg id="phone-icon">
+                      <use
+                        href="./symbol-defs.svg#icon-smartphone-nav-bar"
+                      ></use>
+                    </svg>
+                    +1-212-772-4150</a
                   >
                 </li>
               </ul>
@@ -71,6 +82,13 @@
         <div class="container">
           <ul class="list-class">
             <li>
+              <div class="svg-card-block">
+                <svg class="svg-card">
+                  <use
+                    href="./symbol-defs.svg#icon-effective-solutions-antenna"
+                  ></use>
+                </svg>
+              </div>
               <p class="paragraph-text"><b>ATTENTION TO DETAILS</b></p>
               <p class="paragraph-secondary">
                 We go into all the details and processes of your business to
@@ -78,6 +96,13 @@
               </p>
             </li>
             <li>
+              <div class="svg-card-block">
+                <svg class="svg-card">
+                  <use
+                    href="./symbol-defs.svg#icon-effective-solutions-clock"
+                  ></use>
+                </svg>
+              </div>
               <p class="paragraph-text"><b>PUNCTUALITY</b></p>
               <p class="paragraph-secondary">
                 With us, you can feel safe and secure. An important principle of
@@ -85,6 +110,13 @@
               </p>
             </li>
             <li>
+              <div class="svg-card-block">
+                <svg class="svg-card">
+                  <use
+                    href="./symbol-defs.svg#icon-effective-solutions-diagram"
+                  ></use>
+                </svg>
+              </div>
               <p class="paragraph-text"><b>PLANNING</b></p>
               <p class="paragraph-secondary">
                 You will be able to observe and participate in every phase of
@@ -92,6 +124,13 @@
               </p>
             </li>
             <li>
+              <div class="svg-card-block">
+                <svg class="svg-card">
+                  <use
+                    href="./symbol-defs.svg#icon-effective-solutions-astronaut"
+                  ></use>
+                </svg>
+              </div>
               <p class="paragraph-text"><b>MODERN TECHNOLOGIES</b></p>
               <p class="paragraph-secondary">
                 We use innovative tools to solve assigned tasks. It's time to
@@ -140,6 +179,20 @@
                 />
                 <h4 class="primary-text">Christopher Walker</h4>
                 <p class="secondary-text">Product Designer</p>
+                <div class="social-media-svgs">
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-instagram"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-twitter"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-facebook"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-linkedin"></use>
+                  </svg>
+                </div>
               </div>
 
               <div class="our-team-cards">
@@ -150,6 +203,20 @@
                 />
                 <h4 class="primary-text">Kylie Evans</h4>
                 <p class="secondary-text">Frontend Developer</p>
+                <div class="social-media-svgs">
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-instagram"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-twitter"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-facebook"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-linkedin"></use>
+                  </svg>
+                </div>
               </div>
 
               <div class="our-team-cards">
@@ -160,6 +227,20 @@
                 />
                 <h4 class="primary-text">Ryan Harris</h4>
                 <p class="secondary-text">Marketing</p>
+                <div class="social-media-svgs">
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-instagram"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-twitter"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-facebook"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-linkedin"></use>
+                  </svg>
+                </div>
               </div>
 
               <div class="our-team-cards">
@@ -170,38 +251,120 @@
                 />
                 <h4 class="primary-text">Tyler Moore</h4>
                 <p class="secondary-text">UI Designer</p>
+                <div class="social-media-svgs">
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-instagram"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-twitter"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-facebook"></use>
+                  </svg>
+                  <svg class="our-team-socials-light">
+                    <use href="./symbol-defs.svg#icon-our-team-linkedin"></use>
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
         </section>
       </div>
+      <section class="section">
+        <div class="container">
+          <h2 class="heading-section">Regular Customers</h2>
+          <div class="regular-customers">
+            <svg class="regular-customers-svgs">
+              <use
+                href="./symbol-defs.svg#icon-regular-customers-company1"
+              ></use>
+            </svg>
+            <svg class="regular-customers-svgs">
+              <use
+                href="./symbol-defs.svg#icon-regular-customers-company2"
+              ></use>
+            </svg>
+            <svg class="regular-customers-svgs">
+              <use
+                href="./symbol-defs.svg#icon-regular-customers-company3"
+              ></use>
+            </svg>
+            <svg class="regular-customers-svgs">
+              <use
+                href="./symbol-defs.svg#icon-regular-customers-company4"
+              ></use>
+            </svg>
+            <svg class="regular-customers-svgs">
+              <use
+                href="./symbol-defs.svg#icon-regular-customers-company5"
+              ></use>
+            </svg>
+            <svg class="regular-customers-svgs">
+              <use
+                href="./symbol-defs.svg#icon-regular-customers-company6"
+              ></use>
+            </svg>
+          </div>
+        </div>
+      </section>
     </main>
     <!--Footer-->
     <footer>
       <section class="footer-section">
         <div class="container">
-          <div class="logo-container-class">
-            <a class="link-class" href="index.html">
-              <h2 class="logo">
-                Web<span class="logo-footer-color">Studio</span>
-              </h2>
-            </a>
+          <div class="footer-parent-container">
+            <div class="footer-child-container">
+              <div class="logo-container-class">
+                <a class="link-class" href="index.html">
+                  <h2 class="logo">
+                    Web<span class="logo-footer-color">Studio</span>
+                  </h2>
+                </a>
+              </div>
+              <address class="footer-contact">
+                <ul class="list-class">
+                  <li class="physical-address">695 Park Ave, NY 10065, USA</li>
+                  <li>
+                    <a
+                      class="footer-link-class"
+                      href="mailto:info@devstudio.com"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-link-class" href="tel:+1-212-772-4150"
+                      >+1-212-772-4150</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="footer-child-container">
+              <h4 class="find-us-footer">FIND US ON</h4>
+              <div class="social-media-svgs">
+                <svg class="footer-dark-socials">
+                  <use
+                    href="./symbol-defs.svg#icon-our-team-instagram-light"
+                  ></use>
+                </svg>
+                <svg class="footer-dark-socials">
+                  <use
+                    href="./symbol-defs.svg#icon-our-team-twitter-light"
+                  ></use>
+                </svg>
+                <svg class="footer-dark-socials">
+                  <use
+                    href="./symbol-defs.svg#icon-our-team-facebook-light"
+                  ></use>
+                </svg>
+                <svg class="footer-dark-socials">
+                  <use
+                    href="./symbol-defs.svg#icon-our-team-linkedin-light"
+                  ></use>
+                </svg>
+              </div>
+            </div>
           </div>
-          <address class="footer-contact">
-            <ul class="list-class">
-              <li class="physical-address">695 Park Ave, NY 10065, USA</li>
-              <li>
-                <a class="footer-link-class" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="footer-link-class" href="tel:+1-212-772-4150"
-                  >+1-212-772-4150</a
-                >
-              </li>
-            </ul>
-          </address>
         </div>
       </section>
     </footer>
