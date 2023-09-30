@@ -91,6 +91,10 @@ stroke: var(--text-hover-color);
     cursor: pointer;
 }
 
+.buttons .button:hover {
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+}
+
 .button:hover {
     background-color: var(--text-hover-color)
 }
@@ -393,7 +397,7 @@ body {
 }
 
 .projects-grid-img:hover {
-    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
 .projects-grid-text {
