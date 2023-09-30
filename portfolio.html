@@ -24,26 +24,38 @@
           </a>
           <nav class="main-navigation pages">
             <ul class="list-class">
-              <li><a class="link-class" href="index.html">Studio</a></li>
+              <li>
+                <a class="link-class" href="index.html">Studio</a>
+              </li>
               <li>
                 <a class="link-class current" href="portfolio.html"
                   >Portfolio</a
                 >
               </li>
-              <li><a class="link-class" href="#">Contacts</a></li>
+              <li>
+                <a class="link-class" href="#">Contacts</a>
+              </li>
             </ul>
           </nav>
           <section class="main-navigation">
             <div class="contact-container">
               <ul class="list-class">
-                <li>
-                  <a class="contact-link" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
+                <li class="list-item-class" id="envelope-li">
+                  <a class="contact-link" href="mailto:info@devstudio.com">
+                    <svg id="envelope-icon">
+                      <use href="./symbol-defs.svg#icon-envelope-nav-bar"></use>
+                    </svg>
+                    info@devstudio.com</a
                   >
                 </li>
-                <li>
-                  <a class="contact-link" href="tel:+1-212-772-4150"
-                    >+1-212-772-4150</a
+                <li class="list-item-class" id="phone-li">
+                  <a class="contact-link" href="tel:+1-212-772-4150">
+                    <svg id="phone-icon">
+                      <use
+                        href="./symbol-defs.svg#icon-smartphone-nav-bar"
+                      ></use>
+                    </svg>
+                    +1-212-772-4150</a
                   >
                 </li>
               </ul>
@@ -173,28 +185,75 @@
     <footer>
       <section class="footer-section">
         <div class="container">
-          <div class="logo-container-class">
-            <a class="link-class" href="index.html">
-              <h2 class="logo">
-                Web<span class="logo-footer-color">Studio</span>
-              </h2>
-            </a>
+          <div class="footer-parent-container">
+            <div class="footer-child-container">
+              <div class="logo-container-class">
+                <a class="link-class" href="index.html">
+                  <h2 class="logo">
+                    Web<span class="logo-footer-color">Studio</span>
+                  </h2>
+                </a>
+              </div>
+              <address class="footer-contact">
+                <ul class="list-class">
+                  <li class="physical-address">695 Park Ave, NY 10065, USA</li>
+                  <li>
+                    <a
+                      class="footer-link-class"
+                      href="mailto:info@devstudio.com"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                  <li>
+                    <a class="footer-link-class" href="tel:+1-212-772-4150"
+                      >+1-212-772-4150</a
+                    >
+                  </li>
+                </ul>
+              </address>
+            </div>
+            <div class="footer-child-container">
+              <h4 class="find-us-footer">FIND US ON</h4>
+              <ul class="social-media-svgs">
+                <li class="social-media-item">
+                  <a href class="svg-link-dark">
+                    <svg class="our-team-socials-light">
+                      <use
+                        href="./symbol-defs.svg#icon-our-team-instagram-light"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media-item">
+                  <a href class="svg-link-dark">
+                    <svg class="our-team-socials-light">
+                      <use
+                        href="./symbol-defs.svg#icon-our-team-twitter-light"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media-item">
+                  <a class="svg-link-dark" href="instagram.com">
+                    <svg class="our-team-socials-light">
+                      <use
+                        href="./symbol-defs.svg#icon-our-team-facebook-light"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="social-media-item">
+                  <a class="svg-link-dark" href="instagram.com">
+                    <svg class="our-team-socials-light">
+                      <use
+                        href="./symbol-defs.svg#icon-our-team-linkedin-light"
+                      ></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <address class="footer-contact">
-            <ul class="list-class">
-              <li class="physical-address">695 Park Ave, NY 10065, USA</li>
-              <li>
-                <a class="footer-link-class" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a class="footer-link-class" href="tel:+1-212-772-4150"
-                  >+1-212-772-4150</a
-                >
-              </li>
-            </ul>
-          </address>
         </div>
       </section>
     </footer>
